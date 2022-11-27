@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nuevo_proyecto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo proyecto"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mundo"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Proyecto"
+        android:inputType="text"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoria"
+        android:inputType="text"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de Voluntarios"
+        android:inputType="number"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha del Proyecto"
+        android:inputType="date"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:hint="       ¡Agrega una breve descripcion!"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_crearproy"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:onClick="CrearnuevopOnClick"
+        android:text="Crear Proyecto"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_cancelarproy"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:onClick="CancelarpOnClick"
+        android:text="cancelar"
+        android:textSize="18sp" />
+
+</LinearLayout>
