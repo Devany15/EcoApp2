@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Nuevo_proyecto">
+    tools:context=".Nuevo_proyecto"
+    android:layout_margin="15dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
 
 
                 <EditText
+                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre del Proyecto"
@@ -40,6 +42,7 @@
                     />
 
                 <EditText
+                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Categoria"
@@ -47,6 +50,7 @@
                     android:textSize="25sp"
                     />
                 <EditText
+                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Cantidad de Voluntarios"
@@ -54,6 +58,7 @@
                     android:textSize="25sp"
                     />
                 <EditText
+                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Fecha del Proyecto"
@@ -61,15 +66,18 @@
                     android:textSize="25sp"
                     />
                 <EditText
+                    android:layout_marginTop="10dp"
                     android:layout_width="350dp"
                     android:layout_height="100dp"
-                    android:hint="       ¡Agrega una breve descripcion!"
+                    android:hint="¡Agrega una breve descripcion!"
                     android:inputType="text"
                     android:textSize="20sp"
                     android:layout_gravity="center"
+                    android:textAlignment="center"
                     />
 
                 <Button
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_crearproy"
                     android:layout_width="300dp"
                     android:layout_height="70dp"
@@ -79,6 +87,7 @@
                     android:textSize="20sp" />
 
                 <Button
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_cancelarproy"
                     android:layout_width="200dp"
                     android:layout_height="70dp"
@@ -90,9 +99,6 @@
 
             </LinearLayout>
 
-
     </ScrollView>
-
-
 
 </LinearLayout>
