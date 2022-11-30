@@ -33,48 +33,51 @@
 
 
                 <EditText
-                     android:layout_marginTop="10dp"
+                    android:id="@+id/nProyecto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:hint="Nombre del Proyecto"
                     android:inputType="text"
-                    android:textSize="25sp"
-                    />
+                    android:textSize="25sp" />
 
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:id="@+id/catProy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:hint="Categoria"
                     android:inputType="text"
-                    android:textSize="25sp"
-                    />
+                    android:textSize="25sp" />
+
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:id="@+id/cantProy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:hint="Cantidad de Voluntarios"
                     android:inputType="number"
-                    android:textSize="25sp"
-                    />
+                    android:textSize="25sp" />
+
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:id="@+id/dateProy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:hint="Fecha del Proyecto"
                     android:inputType="date"
-                    android:textSize="25sp"
-                    />
+                    android:textSize="25sp" />
+
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:id="@+id/desProy"
                     android:layout_width="350dp"
                     android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
                     android:hint="¡Agrega una breve descripcion!"
                     android:inputType="text"
-                    android:textSize="20sp"
-                    android:layout_gravity="center"
                     android:textAlignment="center"
-                    />
+                    android:textSize="20sp" />
 
                 <Button
                     android:layout_marginTop="10dp"
