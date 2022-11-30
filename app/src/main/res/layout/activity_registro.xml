@@ -21,8 +21,6 @@
         android:src="@drawable/login"
         />
 
-    <EditText
-        android:id="@+id/Name"
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
