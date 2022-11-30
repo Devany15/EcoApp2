@@ -32,19 +32,20 @@
                 />
 
             <EditText
-                android:layout_marginTop="15dp"
+                android:id="@+id/edtUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:hint="Usuario"
-                android:inputType="text"
-                />
+                android:inputType="text" />
+
             <EditText
-                android:layout_marginTop="15dp"
+                android:id="@+id/edtContra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:hint="Contraseña"
-                android:inputType="textPassword"
-                />
+                android:inputType="textPassword" />
 
             <Button
                 android:layout_marginTop="15dp"
@@ -69,6 +70,5 @@
         </LinearLayout>
 
     </ScrollView>
-
 
 </LinearLayout>
