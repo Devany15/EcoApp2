@@ -22,7 +22,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
     <ImageView
         android:layout_width="90dp"
@@ -47,43 +47,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:src="@drawable/verproyectos" />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_marginTop="30dp"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/proyecto"
-                android:layout_gravity="center"
-                />
-
-            <Button
-                android:layout_marginTop="30dp"
-                android:id="@+id/btn_agregar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:onClick="AgregarOnClick"
-                android:text="Agregar nuevo proyecto"
-                android:textSize="18sp" />
-
-            <ImageView
-                android:layout_marginTop="30dp"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/verproyectos"
-                android:layout_gravity="center"
-                />
 
             <Button
                 android:id="@+id/btn_verproy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="80dp"
                 android:onClick="VerproyectoOnClick"
                 android:text="Ver proyectos"
@@ -94,30 +64,12 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:onClick="SalirOnClick"
                 android:text="Salir"
                 android:textSize="18sp" />
         </LinearLayout>
+
     </ScrollView>
-
-
-
-
-
-    <Button
-        android:id="@+id/btn_salir"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:onClick="SalirOnClick"
-        android:text="Salir"
-        android:textSize="16sp" />
 
 </LinearLayout>
-
-
-    </ScrollView>
-
-    </LinearLayout>
