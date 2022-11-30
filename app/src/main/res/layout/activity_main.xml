@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_margin="15dp">
 
     <ImageView
         android:layout_width="200dp"
@@ -13,42 +14,61 @@
         android:layout_gravity="center"
         android:src="@drawable/planeta"
         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bienvenido"
-        android:layout_gravity="center"
-        android:textSize="35sp"
-        />
-
-    <EditText
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usuario"
-        android:inputType="text"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        />
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido"
+                android:layout_gravity="center"
+                android:textSize="35sp"
+                />
 
-    <Button
-        android:id="@+id/btn_ingresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="IngresarOnClick"
-        android:text="Ingresar" />
+            <EditText
+                android:id="@+id/edtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Usuario"
+                android:inputType="text" />
 
-    <Button
-        android:id="@+id/btn_registrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="RegistroOnClick"
-        android:text="Registro"
-        android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edtContra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btn_ingresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="IngresarOnClick"
+                android:text="Ingresar"
+                android:textSize="18sp"/>
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btn_registrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="RegistroOnClick"
+                android:text="Registro"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
