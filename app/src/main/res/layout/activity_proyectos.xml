@@ -5,6 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    tools:context=".Proyectos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
     tools:context=".Proyectos"
     android:layout_margin="15dp">
 <TextView
@@ -15,16 +27,16 @@
     android:textAlignment="center"
     android:layout_margin="10dp"
     />
-    <Button
-        android:layout_margin="20dp"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:text="Comida en hospital x
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="Comida en hospital x
         Fecha:"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        />
+                android:textSize="20sp"
+                android:textStyle="bold" />
     <Button
         android:layout_margin="20dp"
         android:layout_width="300dp"
@@ -45,4 +57,12 @@
         android:onClick="RegresaringOnClick"
         android:text="Regresar"
         android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
 </LinearLayout>
