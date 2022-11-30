@@ -37,7 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:hint="Usuario"
-                android:inputType="text" />
+                android:inputType="text"
+                android:minHeight="48dp" />
 
             <EditText
                 android:id="@+id/edtContra"
@@ -45,7 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:hint="Contraseña"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
 
             <Button
                 android:layout_marginTop="15dp"
