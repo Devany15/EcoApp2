@@ -5,48 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
+    android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context=".Ingresar"
-    android:layout_margin="15dp">
+    tools:context=".Ingresar">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_verproy"
+        android:layout_width="53dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="EcoApp"
-        android:textSize="48sp" />
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+
+        android:foreground="@drawable/usuario"
+        android:onClick="PerfilOnClick"
+        android:textSize="18sp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:onClick="AgregarOnClick">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="90dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/proyecto" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="EcoApp"
+                android:textSize="44sp" />
 
-    <Button
-        android:id="@+id/btn_agregar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:onClick="AgregarOnClick"
-        android:text="Agregar nuevo proyecto"
-        android:textSize="18sp" />
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:baselineAligned="false"
+                android:src="@drawable/proyecto" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/verproyectos" />
+            <Button
+                android:id="@+id/btn_agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="AgregarOnClick"
+                android:text="Agregar nuevo proyecto"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/verproyectos" />
 
             <Button
                 android:id="@+id/btn_verproy"
@@ -58,6 +75,7 @@
                 android:onClick="VerproyectoOnClick"
                 android:text="Ver proyectos"
                 android:textSize="18sp" />
+
 
             <Button
                 android:id="@+id/btn_salir"

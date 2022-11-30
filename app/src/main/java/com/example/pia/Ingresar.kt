@@ -22,4 +22,8 @@ class Ingresar : AppCompatActivity() {
         val i = Intent(this, Proyectos::class.java)
         startActivity(i)
     }
+    fun PerfilOnClick(view: View){
+        val i = Intent(this, Perfil::class.java)
+        startActivity(i)
+    }
 }
