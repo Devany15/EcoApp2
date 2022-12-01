@@ -24,7 +24,7 @@ class Registro : AppCompatActivity() {
         setContentView(R.layout.activity_registro)
 
         var BtnCrear = findViewById<Button>(R.id.btn_crear)
-        var Uname = findViewById<EditText>(R.id.Name)
+        var Uname = findViewById<EditText>(R.id.name)
         var Ulastname = findViewById<EditText>(R.id.LastName)
         var Uemail = findViewById<EditText>(R.id.Email)
         var Upassword = findViewById<EditText>(R.id.Password)

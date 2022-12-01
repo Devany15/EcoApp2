@@ -16,7 +16,6 @@
         android:layout_gravity="right"
         android:layout_marginTop="10dp"
         android:background="#00FFFFFF"
-
         android:foreground="@drawable/usuario"
         android:onClick="PerfilOnClick"
         android:textSize="18sp" />

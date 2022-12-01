@@ -10,6 +10,10 @@ class Ingresar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ingresar)
     }
+    fun PerfilOnClick(view: View){
+        val i = Intent(this, Perfil::class.java)
+        startActivity(i)
+    }
     fun AgregarOnClick(view: View){
         val i = Intent(this, Nuevo_proyecto::class.java)
         startActivity(i)
@@ -22,8 +26,5 @@ class Ingresar : AppCompatActivity() {
         val i = Intent(this, Proyectos::class.java)
         startActivity(i)
     }
-    fun PerfilOnClick(view: View){
-        val i = Intent(this, Perfil::class.java)
-        startActivity(i)
-    }
+
 }
