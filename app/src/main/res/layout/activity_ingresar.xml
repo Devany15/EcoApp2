@@ -10,7 +10,7 @@
     tools:context=".Ingresar">
 
     <Button
-        android:id="@+id/btn_verproy"
+        android:id="@+id/btn_perfil"
         android:layout_width="53dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
